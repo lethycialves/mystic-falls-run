@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    background-color:#F1F1F1;
+}
+
+header{
+    background-color:#CCC;
+    padding:20px;
+}
+
+header h1{
+    text-align:center;
+}
+
+header h1 img{
+    width:80%;
+    max-width:400px;
+}
+
+header p{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
+}
+
+main{
+    background-color:#FFF;
+    padding:20px;
+    border-radius:20px;
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+}
+
+main h2{
+    color:#222;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main h3{
+    color:#666;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main p,
+main li{
+    text-align:justify;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main img{
+    width:100%;
+    border-radius:20px;
+    margin:15px 0;
+}
+
+main a{
+    background-color:yellow;
+    padding:10px;
+    text-decoration:none;
+    color:#000;
+    display:inline-block;
+}
+
+footer{
+    background-color:#222;
+    padding:20px;
+}
+
+footer p{
+    text-align:center;
+    color:yellow;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer img{
+    width:150px;
+}
+
+@media (min-width:480px){
+
+    header h1 img{
+        width:400px;
+    }
+
+}
+
+@media (min-width:768px){
+
+    main{
+        width:85%;
+    }
+
+}
+
+@media (min-width:1024px){
+
+    main{
+        width:70%;
+    }
+
+}
